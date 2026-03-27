@@ -1,26 +1,26 @@
 class Prezzy < Formula
   desc "Make any CLI output beautiful. Zero config. Just pipe."
   homepage "https://github.com/viziums/prezzy"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/viziums/prezzy/releases/download/v0.1.0/prezzy-aarch64-apple-darwin.tar.gz"
-      sha256 "7a705b87df82dbc1abb4441ac78e5c923767f4aa9d5e3577abe74353e427d9f1"
+      url "https://github.com/viziums/prezzy/releases/download/v0.1.1/prezzy-aarch64-apple-darwin.tar.gz"
+      sha256 "fe38884b36012765222ed730d83f99e9bac9caf3224174d974cd326a262f211d"
     else
-      url "https://github.com/viziums/prezzy/releases/download/v0.1.0/prezzy-x86_64-apple-darwin.tar.gz"
-      sha256 "8ed40caafe6cb5dbdc99177e173b57e202ad435337cd713843120c7a47943e24"
+      url "https://github.com/viziums/prezzy/releases/download/v0.1.1/prezzy-x86_64-apple-darwin.tar.gz"
+      sha256 "904b21f05c8996e82a8899f84986626266b63d093aba17b7ce490e0afc3742e3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/viziums/prezzy/releases/download/v0.1.0/prezzy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c2f9d5047d4cdb180b30d7f29bfd8b012e4a2bb27ed619b0e8a6a124c608c1bb"
+      url "https://github.com/viziums/prezzy/releases/download/v0.1.1/prezzy-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c5dbddcd3d8c3626a76afac2431ee90284ae4a7f71c39c66e0f25f742a4787f9"
     else
-      url "https://github.com/viziums/prezzy/releases/download/v0.1.0/prezzy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f406a7124ee2795dfbd26b335dd168116f0da4451e72ff69db7bb51e1cb1ac9c"
+      url "https://github.com/viziums/prezzy/releases/download/v0.1.1/prezzy-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a75e5fa34010dab48af8f7b674c408f27140570b2cb26aae0b0f4a1121d77d9"
     end
   end
 
